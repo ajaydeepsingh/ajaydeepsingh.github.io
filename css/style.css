@@ -97,7 +97,7 @@ a img {
 
 #about {
 /*  background-color: #D57878;*/
-  background-color: #C26868;
+  background-color: #417246;
   height: 1020px;
   margin-top:-30px;
 }
@@ -447,7 +447,7 @@ ul.toc {
 }
 
 @media (max-width: 480px) {
-  
+
   .toc-holder {
     display: none;
   }
@@ -493,7 +493,7 @@ ul.toc {
   }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 /* STYLES GO HERE */
   .toc-holder {
     display: none;
@@ -548,7 +548,7 @@ ul.toc {
   }
 
   .tagline {
-    padding-bottom : 20px; 
+    padding-bottom : 20px;
   }
 }
 
@@ -565,7 +565,7 @@ ul.toc {
   }
 
   .tagline {
-    padding-bottom : 20px; 
+    padding-bottom : 20px;
   }
 
   #header {
