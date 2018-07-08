@@ -5,14 +5,6 @@ permalink: /projects/
 ---
 
 Show off your projects here!
-- [Awesome Project]()
-- [Cool Project]()
-- [New Project]()
-- [Old Project]()
-- [Hard Project]()
-- [School Project]()
-- [Project's Project]()
+- [ShelterSeek](https://github.com/ajaydeepsingh/cs2340) - An application for homeless people to find nearby shelters and information about them.
 
-# Talks
-- How to ????
 
