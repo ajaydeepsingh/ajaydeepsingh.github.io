@@ -1,1 +1,0 @@
-Ajaydeep Singh
