@@ -1,6 +1,6 @@
 ---
-layout: content
-title: 
+layout: resume
+title: Resume
 permalink: /resume/
 ---
 
