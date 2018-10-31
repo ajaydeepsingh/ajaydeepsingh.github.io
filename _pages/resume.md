@@ -4,4 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 
-![alt text](resume.png "resume ")
+![alt text](resume.jpg "resume ")
