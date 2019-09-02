@@ -16,5 +16,5 @@ I program, take photos, and write about things that interest me when I have the 
 - [Github](https://github.com/ajaydeepsingh/)
 - [LinkedIn](https://www.linkedin.com/in/singhajaydeep/)
 - [Twitter](https://twitter.com/aj_ysingh)
-- [Instagram](https://www.instagram.com/aj_ysingh)
+- [VSCO](https://vsco.co/ajaysingh/images/1)
 
