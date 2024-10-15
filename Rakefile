@@ -110,4 +110,3 @@ end
 def rake_running
   `ps | grep 'rake' | grep -v 'grep' | wc -l`.to_i > 1
 end
-
