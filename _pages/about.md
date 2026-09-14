@@ -3,18 +3,18 @@ layout: content
 title: About
 permalink: /about/
 ---
-Hi, I'm Ajay and I live in Detroit, Michigan. I graduated with a degree in computer science from <a href="http://www.gatech.edu/"> Georgia Tech</a> with a primary concentration in cyber security and software development. I have previously worked for the the Georgia Tech Cyber Security Department, for <a href="http://www.mailchimp.com/"> MailChimp</a> as a Software Engineer Intern and most recently with <a href="https://corporate.ford.com/articles/products/ford-producing-ventilators-for-coronavirus-patients.html"> Ford </a>contributing to the production of 50,000 ventilators for FEMA use and building awesome software tools.
+I’m Ajay Singh, a Kubernetes platform engineer based in Detroit, Michigan. At Ford Motor Company, I architect and operate OpenShift infrastructure across more than 100 hybrid clusters, helping thousands of developers ship software reliably.
 
-Thanks for visiting my site!
+My work sits at the intersection of platform engineering, automation, and security. I build GitOps workflows and internal tooling with Kubernetes, Terraform, Argo CD, and Go, with a focus on making complex systems safer and easier to operate.
 
-I program, take photos, and write about things that interest me when I have the time. More information can be found through <a href="https://www.linkedin.com/in/singhajaydeep/" data-network="LinkedIn" data-proofer-ignore>LinkedIn.</a>
+I studied computer science at [Georgia Tech](https://www.gatech.edu/), concentrating in artificial intelligence, security, and information management. Earlier in my career, I built network automation tools at Mailchimp, supported security operations at Georgia Tech, and helped Ford produce 50,000 ventilators for FEMA during the pandemic.
 
-----
+I like making complicated systems easier to operate and easier to understand. Outside of work, I take photos, explore new ideas, and write when I have something worth sharing.
 
-## Where I can be found
+## Find me online
 
-- [Github](https://github.com/ajaydeepsingh/)
+- [GitHub](https://github.com/ajaydeepsingh/)
 - [LinkedIn](https://www.linkedin.com/in/singhajaydeep/)
-- [Twitter](https://twitter.com/aj_ysingh)
+- [Threads](https://www.threads.com/@aj_ysingh)
 - [VSCO](https://vsco.co/ajaysingh/gallery)
-
+- [Email](mailto:{{ site.email }})

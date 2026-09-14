@@ -1,0 +1,86 @@
+/* ========================================================================== 
+   Experience
+   ========================================================================== */
+
+.c-experience {
+    margin-bottom: 10rem;
+}
+
+.c-experience section {
+    margin-bottom: 7rem;
+}
+
+.c-experience h2 {
+    margin-bottom: 2.5rem;
+    @include fs--heading-2;
+}
+
+.c-experience__summary {
+    max-width: 62rem;
+
+    p {
+        @include fs--body;
+        color: $c-base__01;
+    }
+}
+
+.c-experience__entry {
+    padding: 2.5rem 0;
+    border-top: $m-border;
+
+    &:last-child {
+        border-bottom: $m-border;
+    }
+
+    h3 {
+        margin: 1rem 0 1.5rem;
+        @include fs--heading-3;
+
+        span {
+            color: $c-base__01;
+        }
+    }
+
+    ul {
+        margin-left: 2.1rem;
+        color: $c-base__01;
+        @include fs--caption;
+    }
+
+    li {
+        margin-bottom: .8rem;
+    }
+}
+
+.c-experience__meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem 2rem;
+    @include ff--code;
+    color: $c-accent__blue;
+    font-size: 1.4rem;
+}
+
+.c-experience__skills dl {
+    display: grid;
+    grid-template-columns: 12rem 1fr;
+    gap: 1.5rem 2rem;
+    @include fs--caption;
+    color: $c-base__01;
+}
+
+.c-experience__skills dt {
+    color: $c-base__02;
+    font-weight: 700;
+}
+
+@media screen and (max-width: $bp__sm) {
+    .c-experience__skills dl {
+        display: block;
+    }
+
+    .c-experience__skills dt {
+        margin-top: 1.5rem;
+    }
+}
