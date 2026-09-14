@@ -8,5 +8,29 @@
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}
+    <script>
+      (function () {
+        var toggle = document.querySelector('.c-theme-toggle');
+        if (!toggle) return;
+        var root = document.documentElement;
+
+        function updateToggle() {
+          var isDark = root.getAttribute('data-theme') === 'dark';
+          var icon = toggle.querySelector('.fa');
+          icon.className = isDark ? 'fa fa-sun-o' : 'fa fa-moon-o';
+          toggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+          toggle.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+        }
+
+        toggle.addEventListener('click', function () {
+          var nextTheme = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', nextTheme);
+          try { localStorage.setItem('theme', nextTheme); } catch (error) {}
+          updateToggle();
+        });
+
+        updateToggle();
+      }());
+    </script>
     </body>
 </html>

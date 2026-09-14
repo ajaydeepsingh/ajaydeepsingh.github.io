@@ -9,10 +9,20 @@
 .c-page__header {
     margin-bottom: 10rem; // 100px
 
-    h1 {
+    .c-page__brand {
         margin-bottom: 2.5rem; // 25px
         @include fs--heading-2;
         color: $c-base__02;
+    }
+
+    .c-page__subtitle {
+        margin-top: -1.5rem;
+        margin-bottom: 2.5rem;
+        @include ff--code;
+        color: $c-accent__blue;
+        font-size: 1.4rem;
+        letter-spacing: .04em;
+        text-transform: uppercase;
     }
 
     p {
@@ -42,4 +52,3 @@
         color: $c-base__01;
     }
 }
-

@@ -1,0 +1,47 @@
+/* ========================================================================== 
+   Home
+   ========================================================================== */
+
+.c-home__intro {
+    max-width: 72rem;
+    margin-bottom: 10rem;
+}
+
+.c-home__intro h1 {
+    max-width: 68rem;
+    margin: 1.5rem 0 2rem;
+    @include fs--title;
+    color: $c-base__02;
+}
+
+.c-home__lede {
+    max-width: 60rem;
+    @include fs--body;
+    color: $c-base__01;
+}
+
+.c-home__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem 2rem;
+    align-items: center;
+    margin-top: 3rem;
+    @include fs--body;
+}
+
+.c-home__button {
+    padding: 1rem 1.5rem;
+    border: 1px solid $c-accent__blue;
+    background: $c-accent__blue;
+    color: white;
+
+    &:hover {
+        color: white;
+    }
+}
+
+@media screen and (max-width: $bp__sm) {
+    .c-home__intro h1 {
+        @include fs--heading-1;
+    }
+}

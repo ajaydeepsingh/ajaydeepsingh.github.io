@@ -102,6 +102,24 @@
 .c-article__footer {
 }
 
+.c-resume__download {
+    margin-bottom: 2rem;
+    @include fs--caption;
+}
+
+.c-resume__pdf {
+    display: block;
+    width: 100%;
+    min-height: 90rem;
+    border: $m-border;
+}
+
+@media screen and (max-width: $bp__sm) {
+    .c-resume__pdf {
+        min-height: 70rem;
+    }
+}
+
 .pagenav {
   width: 100%;
   text-align: center;
@@ -133,4 +151,3 @@
   float: right;
   text-align: right;
 }
-

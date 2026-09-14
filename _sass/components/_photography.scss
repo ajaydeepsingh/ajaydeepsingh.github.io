@@ -1,0 +1,41 @@
+/* ========================================================================== 
+   Photography
+   ========================================================================== */
+
+.c-photography__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.c-photography__grid figure {
+    overflow: hidden;
+    background: $c-base__3;
+}
+
+.c-photography__grid img {
+    display: block;
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    transition: opacity ease .3s;
+}
+
+.c-photography__grid a:hover {
+    color: inherit;
+
+    &::after {
+        height: 0;
+    }
+
+    img {
+        opacity: .8;
+    }
+}
+
+@media screen and (max-width: $bp__sm) {
+    .c-photography__grid {
+        grid-template-columns: 1fr;
+    }
+}
