@@ -11,7 +11,9 @@ github_username: ajaydeepsingh
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ajaysingh.me" # the base hostname & protocol for your site
 
-google_analytics_id: UA-123060263-1
+# Google Analytics 4 Measurement ID (for example, G-XXXXXXXXXX).
+# Leave blank to disable analytics.
+google_analytics_measurement_id: "G-C796FQYM2D"
 disqus_id:
 
 # Build settings
