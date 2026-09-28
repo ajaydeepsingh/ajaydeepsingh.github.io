@@ -11,6 +11,7 @@ GEM
       io-event (~> 1.9)
       metrics (~> 0.12)
       traces (~> 0.15)
+    base64 (0.3.0)
     benchmark (0.5.0)
     bigdecimal (3.3.1)
     colorator (1.1.0)
@@ -116,6 +117,7 @@ GEM
     public_suffix (5.0.5)
     racc (1.8.1)
     rainbow (3.1.1)
+    rake (13.4.2)
     rb-fsevent (0.9.8)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
@@ -148,12 +150,14 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  base64
   html-proofer
   jekyll
   jekyll-livereload
   jekyll-seo-tag
   kramdown-parser-gfm
   public_suffix (= 5.0.5)
+  rake
   rb-fsevent (= 0.9.8)
   webrick (~> 1.8)
 
