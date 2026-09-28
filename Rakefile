@@ -59,7 +59,7 @@ task :check do
 	cleanup
   jekyll("build -d _site#{baseurl}")
 	puts cyan "Running html proofer..."
-	puts `htmlproofer --assume-extension --alt-ignore '/.*/' ./_site`
+  sh 'htmlproofer --assume-extension .html --ignore-missing-alt --ignore-urls https://vsco.co/ajaysingh/gallery ./_site'
 end
 
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
